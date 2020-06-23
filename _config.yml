@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Jingjing Zhang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Ann Arbor, MI"
   email            : "jingzjj@umich.edu"
