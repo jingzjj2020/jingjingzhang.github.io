@@ -6,7 +6,7 @@ author_profile: true
 header:
   image: "/images/Background-03.jpg"
 ---
-{% include base_path %}
+{% include site_tags %}
 {% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
