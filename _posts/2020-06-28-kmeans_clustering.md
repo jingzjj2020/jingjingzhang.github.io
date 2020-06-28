@@ -4,7 +4,7 @@ date: 2020-06-28
 tags: [machine learning, data science, finding groups of data]
 header:
   images: "/images/Background-01.jpg"
-excerpt: "Machine Learning, Data Science"
+excerpt: "Machine Learning"
 mathjax: true
 ---
 Clustering analysis is used to find groups of similar objects in a dataset. There are two main categories of clustering:
