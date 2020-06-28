@@ -30,6 +30,7 @@ plot(df.hc,cex=1,col="blue"
 
 ## Cluster Plot
 ```r
-fviz_cluster(cluster_5, df, palette = "Set2", labelsize = 8 ,main="Cluster Plot", ggtheme = theme_minimal())
+fviz_cluster(cluster_5, df, palette = "Set2", labelsize = 8,
+main="Cluster Plot", ggtheme = theme_minimal())
 ```
 <img src="{{ site.url }}{{ site.baseurl }}/images/clusteringwithkmeans/ClusterPlot.png" alt="K-means clustering">
