@@ -20,7 +20,7 @@ In this section, we cluster people into 5 groups using k-means clustering algori
 ```r
 df.dist <- dist(df, method = "euclidean")
 df.hc <- hclust(df.dist, method = "ward.D2")
-plot(df.hc,cex=1,col="blue"
+plot(df.hc,cex=1,col="blue")
 ```
 <img src="{{ site.url }}{{ site.baseurl }}/images/clusteringwithkmeans/Dendrogram.png" alt="K-means clustering">
 
