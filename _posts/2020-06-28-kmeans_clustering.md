@@ -1,7 +1,7 @@
 ---
 title: "Clustering with K-means"
 date: 2020-06-28
-tags: [machine learning, data science, finding groups of data]
+tags: [machine learning, finding groups of data]
 header:
   images: "/images/Background-01.jpg"
 excerpt: "Machine Learning"
@@ -22,15 +22,14 @@ df.dist <- dist(df, method = "euclidean")
 df.hc <- hclust(df.dist, method = "ward.D2")
 plot(df.hc,cex=1,col="blue"
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/images/clusteringwithkmean/Dendrogram.png" alt="K-means clustering">
+<img src="{{ site.url }}{{ site.baseurl }}/images/clusteringwithkmeans/Dendrogram.png" alt="K-means clustering">
 
 
 ## Cluster Size
-<img src="{{ site.url }}{{ site.baseurl }}/images/clusteringwithkmean/Clustersize.png" alt="K-means clustering">
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/clusteringwithkmeans/Clustersize.png" alt="K-means clustering">
 
 ## Cluster Plot
 ```r
 fviz_cluster(cluster_5, df, palette = "Set2", labelsize = 8 ,main="Cluster Plot", ggtheme = theme_minimal())
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/images/clusteringwithkmean/ClusterPlot.png" alt="K-means clustering">
+<img src="{{ site.url }}{{ site.baseurl }}/images/clusteringwithkmeans/ClusterPlot.png" alt="K-means clustering">
