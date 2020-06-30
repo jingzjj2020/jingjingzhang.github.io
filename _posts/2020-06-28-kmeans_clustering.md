@@ -26,7 +26,7 @@ plot(df.hc,cex=1,col="blue")
 
 
 ## Cluster Size
-<img src="{{ site.url }}{{ site.baseurl }}/images/clusteringwithkmeans/Clustersize.png" alt="K-means clustering">
+<img src="{{ site.url }}{{ site.baseurl }}/images/clusteringwithkmeans/Clustersize_1.png" alt="K-means clustering">
 
 ## Cluster Plot
 ```r
