@@ -1,7 +1,7 @@
 ---
 title: "Clustering with K-means"
 date: 2020-06-28
-tags: [machine learning, finding groups of data]
+tags: [Machine Learning, Marketing Analysis]
 header:
   images: "/images/Background-01.jpg"
 excerpt: "Machine Learning"
