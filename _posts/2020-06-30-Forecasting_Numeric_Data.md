@@ -24,7 +24,6 @@ pairs(insurance[c("age","bmi","children","expenses")])
 The relationship between *age* and *expenses* displays several relatively straight lines, while the *bmi* versus *expenses* plot has two distinct groups of points.
 
 ```r
-pairs(insurance[c("age","bmi","children","expenses")])
 pairs.panels(insurance [c("age","bmi","children","expenses")])
 ```
 <img src="{{ site.url }}{{ site.baseurl }}/images/RegressionMethods/ScatterplotMatrix_2.png" alt="Regression Methods">
@@ -44,9 +43,6 @@ ins_model
 2.  Each additional child results in an average of $475.70 in additional medical expenses each year, and each unit increase in BMI is associated with an average increase of $339.30 in yearly medical expenses, all else equal.
 
 ## Evaluating Model Performance
-```r
-summary(ins_model)
-```
 <img src="{{ site.url }}{{ site.baseurl }}/images/RegressionMethods/LinearRegression_2.png" alt="Regression Methods">
 **Findings:**
 1. The *Residuals* section provides summary statistics for the errors in our predictions. The majority of predictions were between $2,850.90 over the true value and $1383.90 under the true value.
