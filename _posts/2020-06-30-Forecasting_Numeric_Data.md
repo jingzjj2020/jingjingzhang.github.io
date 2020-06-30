@@ -7,6 +7,8 @@ header:
 excerpt: "Machine Learning"
 mathjax: true
 ---
+In order for a health insurance company to make money, it needs to collect more in yearly premiums than it spends on medical care to its beneficiaries. Consequently, insurers  invest a great deal of time and money to develop models that accurately forecast medical expenses for the insured population.
+The goal of this analysis is to use patient data to forecast the average medical care expenses for such population segments. These estimates could be used to create actuarial tables that set the price of yearly premiums higher or lower according to the expected treatment costs.
 ## Exploring Relationships Among Features - The Correlation Matrix
 ```r
 cor(insurance[c("age","bmi","children","expenses")])
