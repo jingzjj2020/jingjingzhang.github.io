@@ -37,8 +37,8 @@ The above matrix diagram shows that a few columns seem fairly heavily populated,
 
 ## Training A Model On The Data
 ```r
-groceryrules<-apriori(groceries,parameter=list(
-support = 0.006, confidence=0.25,minlen=2))
+groceryrules<-apriori(groceries,parameter=list(support=0.006,
+confidence=0.25,minlen=2))
 groceryrules
 ```
 <img src="{{ site.url }}{{ site.baseurl }}/images/MarketBasketAnalysis/Groceryrules_1.png" alt="Market Basket Analysis">
