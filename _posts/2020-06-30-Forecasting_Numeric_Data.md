@@ -1,7 +1,7 @@
 ---
 title: "Predicting Medical Expenses Using Linear Regression"
 date: 2020-06-30
-tags: [machine learning, Regression Methods]
+tags: [Machine Learning, Regression Methods]
 header:
   images: "/images/Background-01.jpg"
 excerpt: "Machine Learning"
@@ -25,7 +25,6 @@ The relationship between *age* and *expenses* displays several relatively straig
 
 ```r
 pairs(insurance[c("age","bmi","children","expenses")])
-```r
 pairs.panels(insurance [c("age","bmi","children","expenses")])
 ```
 <img src="{{ site.url }}{{ site.baseurl }}/images/RegressionMethods/ScatterplotMatrix_2.png" alt="Regression Methods">
