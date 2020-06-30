@@ -1,5 +1,5 @@
 ---
-title: "Clustering with K-means"
+title: "Finding Teen Market Segments Using K-means Clustering"
 date: 2020-06-28
 tags: [Machine Learning, Marketing Analysis]
 header:
