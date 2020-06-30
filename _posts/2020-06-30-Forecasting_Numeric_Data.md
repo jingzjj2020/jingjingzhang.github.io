@@ -67,3 +67,12 @@ summary(ins_model2)
 2. The higher-order age2 term is statistically significant, as is the obesity indicator, bmi30. The interaction between obesity and smoking suggests a massive effect; in addition to the increased costs of over $13,404 for smoking alone, obese smokers spend another $19,810 per year. This may suggest that smoking exacerbates diseases associated with obesity.
 
 ## Making Predictions With A Regression Model
+```r
+insurance$pred<-predict(ins_model2, insurance)
+cor(insurance$pred,insurance$expenses)
+plot(insurance$pred,insurance$expenses)
+```
+<img src="{{ site.url }}{{ site.baseurl }}/images/RegressionMethods/LinearRegression_4.png" alt="Regression Methods">
+<img src="{{ site.url }}{{ site.baseurl }}/images/RegressionMethods/LinearRegression_5.png" alt="Regression Methods">
+**Findings:**
+The correlation of 0.93 suggests a very strong relationship between the predicted and actual values. This is a good sign - it suggests that the model is highly accurate! It can also be useful to examine this finding as a scatterplot.
