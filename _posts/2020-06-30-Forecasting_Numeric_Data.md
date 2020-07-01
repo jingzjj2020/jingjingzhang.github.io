@@ -1,7 +1,7 @@
 ---
 title: "Predicting Medical Expenses Using Linear Regression"
 date: 2020-06-30
-tags: [Machine Learning, Regression Methods]
+tags: [Regression Methods]
 header:
   images: "/images/Background-01.jpg"
 excerpt: "Machine Learning"
