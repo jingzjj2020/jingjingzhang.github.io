@@ -1,7 +1,7 @@
 ---
 title: "Finding Teen Market Segments Using K-means Clustering"
 date: 2020-06-28
-tags: [Machine Learning, Marketing Analysis]
+tags: [Marketing Analysis]
 header:
   images: "/images/Background-01.jpg"
 excerpt: "Machine Learning"
