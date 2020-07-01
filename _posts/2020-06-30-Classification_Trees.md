@@ -79,4 +79,4 @@ CrossTable(credit_test$default,credit_boost_pred10,
 ```
 <img src="{{ site.url }}{{ site.baseurl }}/images/ClassificationTrees/ImprovingModelPerformance_3.png" alt="Classification Trees">
 **Findings:**
-We reduced the total error rate from 27% prior to boosting to 18% in the boosted model.
+We reduced the total error rate from 27% prior to boosting to 18% in the boosted model. This may not seem like a large gain, but it is in fact greater than the 25% reduction we expected.
